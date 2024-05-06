@@ -1,0 +1,131 @@
+/*.navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+*/
+.navbar {
+  background-color: #333; /* Dark gray */
+  padding: 1rem; /* Padding inside the navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px; /* Space between menu items */
+}
+
+.navbar a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ccc; /* Light gray on hover */
+}
+.cta {
+  background-color: #333; /* Dark gray */
+  color: #fff; /* White text color */
+  padding: 20px 40px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-top: 3rem;
+}
+
+.cta:hover {
+  background-color: lightpink; /* Darker gray on hover */
+}
+
+.hero {
+  background-color: #e5c4a0; /* Light gray */
+  padding: 2rem; /* Padding inside the hero section */
+  display: flex;
+  align-items: center;
+  img {
+    width: 300px;
+    height: auto;
+    margin-left: 5rem;
+  }
+
+  h1 {
+    margin: 0 3rem 0 18rem;
+  }
+
+  p {
+    margin: 0 3rem 0 18rem;
+  }
+}
+
+.hero h1 {
+  font-size: 36px; /* Font size of the title */
+  margin-bottom: 10px; /* Space between title and description */
+}
+
+.hero p {
+  font-size: 18px; /* Font size of the description */
+  margin-bottom: 20px; /* Space between description and profile picture */
+}
+
+.hero img {
+  width: 200px; /* Width of the profile picture */
+  height: 200px; /* Height of the profile picture */
+  border-radius: 50%; /* Rounded corners */
+  margin-bottom: 20px; /* Space between profile picture and skills */
+  display: flex;
+}
+
+.skills {
+  background-color: #fff; /* White */
+  padding: 9rem; /* Padding inside the skills section */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.skill {
+  margin: 10px; /* Space between skills */
+  padding: 10px; /* Padding inside each skill */
+  border: 1px solid #ddd; /* Border around each skill */
+  border-radius: 10px; /* Rounded corners */
+  width: 100px; /* Width of each skill */
+  height: 100px; /* Height of each skill */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill img {
+  width: 50px; /* Width of the skill icon */
+  height: 50px; /* Height of the skill icon */
+}
+
+.FooterComponent {
+  background-color: #333; /* Dark gray */
+  padding: 2rem; /* Padding inside the footer */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    color: #fff;
+  }
+  p {
+    color: #fff; /* White text color */
+    margin: 0; /* No margin */
+  }
+}
