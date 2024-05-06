@@ -2,13 +2,14 @@ const ProjectData = [
   {
     id: 1,
     name: "Projet 1",
-    description: "This is project 1 description.",
+    description: "Création d'un jeu du style Cookie cliker.",
     image: "./src/assets/Panclick.png",
   },
+
   {
     id: 2,
     name: "Project 2",
-    description: "This is project 2 description.",
+    description: "Site educatif pour jeune sorcier entrant à Poudlard.",
     image: "./src/assets/Frontwizards.png",
   },
 ];

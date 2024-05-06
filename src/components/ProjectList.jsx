@@ -1,10 +1,13 @@
 import ProjectCard from "./ProjectCard";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const ProjectList = ({ projects }) => (
   <div className="project-list">
     {projects.map((project) => (
-      <ProjectCard key={project.id} project={project} />
+      <Link key={project.id} to={`/ProjectPage/${project.id}`}>
+        <ProjectCard project={project} />
+      </Link>
     ))}
   </div>
 );
