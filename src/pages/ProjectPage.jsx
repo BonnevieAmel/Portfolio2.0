@@ -10,8 +10,16 @@ function ProjectPage() {
   return (
     <section className="ProjectPageComponent">
       <h1>Projet {id} </h1>
-
+      <img src={ChosenProject.image} alt={ChosenProject.name} />
       <p>Description: {ChosenProject.description}</p>
+      <a target="blank" href={ChosenProject.link}>
+        {" "}
+        Repo GitHub
+      </a>
+      <a target="blank" href={ChosenProject.deploy}>
+        {" "}
+        Site Deployé{" "}
+      </a>
     </section>
   );
 }
