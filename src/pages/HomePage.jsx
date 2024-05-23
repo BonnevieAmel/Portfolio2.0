@@ -5,7 +5,7 @@ import technoBack from "../datas/technoBack";
 
 function HomePage() {
   return (
-    <>
+    <div className="global">
       <div className="hero">
         <img src="../src/assets/woman-5854291_1280.png" alt="avatar" />
         <div className="presentation">
@@ -44,7 +44,7 @@ function HomePage() {
           Contactez Moi{" "}
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 

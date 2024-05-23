@@ -1,5 +1,5 @@
 import ProjectList from "../components/ProjectList";
-import ProjectData from "../components/ProjectData";
+import ProjectData from "../datas/ProjectData";
 
 const ProjectsPage = () => {
   return (
