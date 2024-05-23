@@ -1,5 +1,5 @@
-import StackQAMP from "./src/assets/Panclick.png";
-import FrontWizards from "./src/assets/Frontwizards.png";
+import StackQAMP from "../src/assets/Panclick.png";
+import FrontWizards from "../src/assets/Frontwizards.png";
 const ProjectData = [
   {
     id: 1,
