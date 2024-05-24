@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import ProjectData from "../datas/ProjectData";
+import "../style/ProjectsPage.scss";
 
 function ProjectPage() {
   const { id } = useParams();

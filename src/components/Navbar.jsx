@@ -17,9 +17,6 @@ export default function NavBar() {
         <li>
           <Link to="/ContactPage"> Me Contacter </Link>
         </li>
-        <li>
-          <Link to="/Blog"> Blog </Link>
-        </li>
       </ul>
     </nav>
   );

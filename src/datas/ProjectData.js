@@ -6,9 +6,12 @@ const ProjectData = [
   {
     id: 1,
     name: "StackQAMP",
-    description: "Création d'un jeu du style Cookie cliker.",
+    description:
+      "Premier projet réalisé en équipe, Création d'un jeu du style Cookie cliker, utilisation HTML/CSS/Javascript.",
     image: StackQAMP,
     link: "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-P1-StackQAMP",
+    deploy:
+      "https://wildcodeschool-2024-02.github.io/JS-RemoteFR-P1-StackQAMP/",
   },
 
   {

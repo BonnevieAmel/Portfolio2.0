@@ -1,4 +1,5 @@
 import cv from "../assets/Cv.png";
+import "../style/ContactPage.scss";
 
 function ContactPage() {
   return (
@@ -24,7 +25,7 @@ function ContactPage() {
           </a>
         </address>
       </div>
-      <div>
+      <div className="CV">
         <h2
           className="title-h2
         "
