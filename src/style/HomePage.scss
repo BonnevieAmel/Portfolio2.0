@@ -17,7 +17,15 @@
   }
 }
 .hero {
-  background-image: url("../assets/desert.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 254, 254, 0.041),
+      rgb(255, 255, 255)
+    ),
+    url("../assets/desert.png");
   width: 100%;
 }
 p {
@@ -31,7 +39,6 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 4rem;
-  margin-top: 5rem;
 }
 
 .cta {

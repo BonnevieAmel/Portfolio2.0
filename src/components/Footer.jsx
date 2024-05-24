@@ -1,11 +1,10 @@
-function Footer() {
+export default function Footer() {
   return (
-    <section className="FooterComponent">
-      <h1>GitHub</h1>
-
-      <p>https://github.com/BonnevieAmel</p>
-    </section>
+    <footer>
+      <ul>
+        <li>Made with ❤️ </li>
+        <li>Copyright Amel Bonnevie 2024</li>
+      </ul>
+    </footer>
   );
 }
-
-export default Footer;

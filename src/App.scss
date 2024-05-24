@@ -39,86 +39,16 @@
   background-color: lightpink; /* Darker gray on hover */
 }
 
-.hero {
-  background-color: #e5c4a0; /* Light gray */
-  padding: 2rem; /* Padding inside the hero section */
-  display: flex;
-  align-items: center;
-  img {
-    width: 300px;
-    height: auto;
-    margin-left: 5rem;
+footer {
+  background-color: #333;
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    li {
+      margin: 0 auto;
+    }
   }
-
-  h1 {
-    margin: 0 3rem 0 18rem;
-  }
-
-  p {
-    margin: 0 3rem 0 18rem;
-  }
-}
-
-.hero h1 {
-  font-size: 36px; /* Font size of the title */
-  margin-bottom: 10px; /* Space between title and description */
-}
-
-.hero p {
-  font-size: 18px; /* Font size of the description */
-  margin-bottom: 20px; /* Space between description and profile picture */
-}
-
-.hero img {
-  width: 200px; /* Width of the profile picture */
-  height: 200px; /* Height of the profile picture */
-  border-radius: 50%; /* Rounded corners */
-  margin-bottom: 20px; /* Space between profile picture and skills */
-  display: flex;
-}
-
-.skills {
-  background-color: #fff; /* White */
-  padding: 9rem; /* Padding inside the skills section */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-}
-
-.skill {
-  margin: 10px; /* Space between skills */
-  padding: 10px; /* Padding inside each skill */
-  border: 1px solid #ddd; /* Border around each skill */
-  border-radius: 10px; /* Rounded corners */
-  width: 100px; /* Width of each skill */
-  height: 100px; /* Height of each skill */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.skill img {
-  width: 50px; /* Width of the skill icon */
-  height: 50px; /* Height of the skill icon */
-}
-
-.FooterComponent {
-  background-color: #333; /* Dark gray */
-  padding: 2rem; /* Padding inside the footer */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  h1 {
-    color: #fff;
-  }
-  p {
-    color: #fff; /* White text color */
-    margin: 0; /* No margin */
-  }
-}
-
-img {
-  width: 500px;
 }
