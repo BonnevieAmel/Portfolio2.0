@@ -4,7 +4,7 @@
   margin: 4rem 0 8rem 0;
   font-size: 80px;
   color: transparent;
-  background-image: url("../assets/desert.png");
+  background-image: linear-gradient(black, black);
   background-repeat: no-repeat;
   background-clip: text;
   -webkit-background-clip: text;
@@ -16,7 +16,10 @@
     background-position: 0 0;
   }
 }
-
+.hero {
+  background-image: url("../assets/desert.png");
+  width: 100%;
+}
 p {
   font-size: 1.2rem;
 }
