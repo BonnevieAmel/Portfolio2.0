@@ -12,7 +12,7 @@ function HomePage() {
           <h1>Développeuse Web FullStack</h1>
           <p>
             développeuse web en reconversion. engagée, curieuse et persévérante,
-            je développe passion pour ce métier en constante évolution.
+            je développe une passion pour ce métier en constante évolution.
           </p>
         </div>
       </div>
