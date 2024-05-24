@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
 import "../style/HomePage.scss";
+
 import technoFront from "../datas/technoFront";
 import technoBack from "../datas/technoBack";
-import woman from "../assets/woman";
 
 function HomePage() {
   return (
     <div className="global">
       <div className="hero">
-        <img src={woman} alt="avatar" />
         <div className="presentation">
           <h1>Développeuse Web FullStack</h1>
           <p>
@@ -19,7 +18,7 @@ function HomePage() {
       </div>
 
       <div className="skills">
-        <h2>Stack utilisées </h2>
+        <h2>Stack utilisées :</h2>
 
         <div className="techno">
           <h3>Front-End : </h3>
